@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.pagina{
+    background-color: white;
+}
+
+.logo{
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+img{
+    height: 10vh;
+    width: 35vh;
+}
+
+.menu_navbar{
+    padding: 30px 0 30px;
+    text-align: center;
+}
+
+.menu_navbar ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.menu_navbar ul li a{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding: 2px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu_navbar ul li a:hover{
+    color: #f0cb6a;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding: 2px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.accesso{
+    text-align: center;
+    padding: 30px 0 27px;
+}
+
+.accesso .pulsanti_accesso{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.accesso .pulsanti_accesso a{
+    font-size: 19px;
+    color:#666666;
+    position: relative;
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+.accesso .pulsanti_accesso a:last-child{
+    margin-right: 0;
+}
+
+.accesso .pulsanti_accesso a:after{
+    position: absolute;
+    right: -12px;
+    top: 2px;
+    content: '/';
+    font-size: 16px;
+}
+
+.accesso .pulsanti_accesso a:last-child:after{
+    display: none;
+}
